@@ -1,0 +1,114 @@
+version: '3'
+services:
+  angular-ui-admin:
+    build:
+      context: ./frontend-admin
+      dockerfile: Dockerfile-dev
+    ports:
+      - "4000:4000"
+    container_name: angular-ui-admin
+    volumes:
+       - ./frontend-admin:/usr/src/app/frontend-admin
+       - /usr/src/app/frontend-admin/node_modules
+
+  angular-ui-user:
+    build:
+      context: ./frontend-user
+      dockerfile: Dockerfile-dev
+    ports:
+      - "5000:5000"
+    container_name: angular-ui-user
+    volumes:
+       - ./frontend-user:/usr/src/app/frontend-user
+       - /usr/src/app/frontend-user/node_modules 
+       
+  web:
+    build: ./backend
+    ports:
+        - "8000:80"
+    depends_on:
+        - db
+
+  db:
+    image: "mcr.microsoft.com/mssql/server:2019-latest" 
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "Your_password123"
+    # volumes:
+    #     - container-volume:/var/opt/mssql/data
+    ports:
+        - 1433:1433
+
+  # web:
+  #   build: ./backend
+  #   ports:
+  #       - "8000:80" 
+  #   depends_on:
+  #       - db
+  #   volumes:
+  #     - container-volume:/home/izicloud4/web-ban-hang
+        
+  # mysql:
+  #   image: mariadb:10.5
+  #   container_name: dev_mysql
+  #   volumes:
+  #     - container-volume:/var/lib/mysql 
+  #   environment:
+  #     MYSQL_USER: user
+  #     MYSQL_PASSWORD: user
+  #     MYSQL_ROOT_PASSWORD: root
+  #     MYSQL_DATABASE: ShopComputerNetCore
+  #   restart: unless-stopped
+  #   ports:
+  #     - 3306:3307
+
+
+  # phpmyadmin:
+  #   image: phpmyadmin/phpmyadmin
+  #   container_name: dev_pma
+  #   links:
+  #     - mysql
+  #   environment:
+  #     PMA_HOST: mysql
+  #     PMA_PORT: 3306
+  #     PMA_ARBITRARY: 1
+  #   restart: always
+  #   ports:
+  #     - 8100:80
+  
+  # web:
+  #   build: ./backend
+  #   ports:
+  #       - "8000:80"
+  #   depends_on:
+  #       - mysql
+
+  # php_api:
+  #   # image: php:7.4.6-apache
+  #   # command: RUN docker-php-ext-install mysqli
+  #   build:
+  #     context: ./backend
+  #     dockerfile: Dockerfile-dev
+  #   container_name: dev_php
+  #   depends_on:
+  #     - mysql
+  #   volumes:
+  #     - ./backend/:/var/www/html/
+  #   ports:
+  #     - "8200:80"
+  #   stdin_open: true
+  #   tty: true
+
+  # angular-ui:
+  #   build:
+  #     context: ./frontend
+  #     dockerfile: Dockerfile-dev
+  #   ports:
+  #     - "4200:4200"
+  #   container_name: angular-ui
+  #   volumes:
+  #      - ./frontend:/usr/src/app/frontend
+  #      - /usr/src/app/frontend/node_modules
+
+volumes:
+  container-volume:
