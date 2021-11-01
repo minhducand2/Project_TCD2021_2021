@@ -3,7 +3,7 @@ GO
 
 USE [web_ban_hang]
 GO
-/****** Object:  Table [dbo].[p000account]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p000account]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -25,7 +25,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p1000shopcomment]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p1000shopcomment]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -45,7 +45,7 @@ CREATE TABLE [dbo].[p1000shopcomment](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p100menu]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p100menu]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -64,7 +64,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p1100shopcategories]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p1100shopcategories]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -79,7 +79,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p1200mealplantype]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p1200mealplantype]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -93,7 +93,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p1300blogcategories]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p1300blogcategories]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -107,7 +107,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p1400blog]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p1400blog]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -128,7 +128,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p1500contactinfo]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p1500contactinfo]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -150,7 +150,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p1600contactstatus]    Script Date: 24/07/2021 04:00:52 PM PM ******/
+/****** Object:  Table [dbo].[p1600contactstatus]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -164,7 +164,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p1700contactus]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p1700contactus]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -181,7 +181,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p1800userstatus]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p1800userstatus]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -195,7 +195,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p1900roleuser]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p1900roleuser]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -209,7 +209,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p2000user]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p2000user]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -237,7 +237,7 @@ CREATE TABLE [dbo].[p2000user](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p200role]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p200role]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -251,7 +251,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p2100promotion]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p2100promotion]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -271,7 +271,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p2200orderstatus]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p2200orderstatus]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -285,7 +285,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p2300paymentstatus]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p2300paymentstatus]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -299,7 +299,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p2400paymenttype]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p2400paymenttype]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -313,7 +313,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p2500city]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p2500city]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -327,7 +327,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p2600district]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p2600district]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -342,7 +342,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p2700producttype]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p2700producttype]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -356,7 +356,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p2800ordershop]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p2800ordershop]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -386,7 +386,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p2900orderdetail]    Script Date: 24/06/2021 3:32:52 PM ******/
+/****** Object:  Table [dbo].[p2900orderdetail]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -405,7 +405,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p3000commentstatus]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p3000commentstatus]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -419,7 +419,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p300roledetail]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p300roledetail]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -435,7 +435,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p3100mypromotion]    Script Date: 24/06/2021 3:32:52 PM ******/
+/****** Object:  Table [dbo].[p3100mypromotion]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -450,7 +450,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p3200inputproduct]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p3200inputproduct]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -469,7 +469,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p3300warehouse]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p3300warehouse]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -486,7 +486,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p400banner]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p400banner]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -501,7 +501,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p500footer]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p500footer]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -519,7 +519,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p600headerinfo]    Script Date: 24/06/2021 3:32:52 PM ******/
+/****** Object:  Table [dbo].[p600headerinfo]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -535,7 +535,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p700shop]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p700shop]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -559,7 +559,7 @@ PRIMARY KEY CLUSTERED
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p800shopcombo]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p800shopcombo]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -574,7 +574,7 @@ CREATE TABLE [dbo].[p800shopcombo](
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
-/****** Object:  Table [dbo].[p900shopcombodetail]    Script Date: 24/07/2021 04:00:52 PM ******/
+/****** Object:  Table [dbo].[p900shopcombodetail]    Script Date: 31/10/2021 23:30:20 PM ******/
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
@@ -745,10 +745,10 @@ SET IDENTITY_INSERT [dbo].[p1600contactstatus] OFF
 GO
 SET IDENTITY_INSERT [dbo].[p1700contactus] ON 
 
-INSERT [dbo].[p1700contactus] ([id], [IdContactStatus], [Name], [Email], [Message]) VALUES (1, NULL, N'luongadsas', N'luongthanhbinh45@gmail.com', N'ádasd')
-INSERT [dbo].[p1700contactus] ([id], [IdContactStatus], [Name], [Email], [Message]) VALUES (2, NULL, N'luongadsas', N'luongthanhbinh45@gmail.com', N'ádasd')
-INSERT [dbo].[p1700contactus] ([id], [IdContactStatus], [Name], [Email], [Message]) VALUES (3, 1, N'3453234', N'luongthanhbinh45@gmail.com', N'23423')
-INSERT [dbo].[p1700contactus] ([id], [IdContactStatus], [Name], [Email], [Message]) VALUES (4, 1, N'Lương Thanh Bình', N'luongthanhbinh45@gmail.com', N'54656')
+INSERT [dbo].[p1700contactus] ([id], [IdContactStatus], [Name], [Email], [Message]) VALUES (1, NULL, N'ducadsas', N'minhducand@gmail.com', N'ádasd')
+INSERT [dbo].[p1700contactus] ([id], [IdContactStatus], [Name], [Email], [Message]) VALUES (2, NULL, N'ducadsas', N'minhducand@gmail.com', N'ádasd')
+INSERT [dbo].[p1700contactus] ([id], [IdContactStatus], [Name], [Email], [Message]) VALUES (3, 1, N'3453234', N'minhducand@gmail.com', N'23423')
+INSERT [dbo].[p1700contactus] ([id], [IdContactStatus], [Name], [Email], [Message]) VALUES (4, 1, N'Pham Van Minh Duc', N'minhducand@gmail.com', N'54656')
 INSERT [dbo].[p1700contactus] ([id], [IdContactStatus], [Name], [Email], [Message]) VALUES (5, 1, N'rolie', N'test@gmail.com', N'bbb')
 SET IDENTITY_INSERT [dbo].[p1700contactus] OFF
 GO
@@ -765,16 +765,16 @@ SET IDENTITY_INSERT [dbo].[p1900roleuser] OFF
 GO
 SET IDENTITY_INSERT [dbo].[p2000user] ON 
 
-INSERT [dbo].[p2000user] ([id], [IdUserStatus], [Fullname], [Email], [Password], [Avatar], [IdRoleUser], [CreatedAt], [UpdatedAt], [authkey], [Phone], [Sex], [IdCity], [IdDistrict], [Address], [Point]) VALUES (1, 1, N'Luong Thanh Bình', N'luongthanhbinh451@gmail.com', N'020F80EC82D9A9EB21B53468F3F97E39', N'http://127.0.0.1:8000/images\2021_04_28_09_28_00_mt.jpg', 1, CAST(N'2021-03-30T13:56:47.000' AS DateTime), CAST(N'2021-05-10T13:56:47.000' AS DateTime), N'', N'456456456', N'1', N'1', N'1', N'56456', 1000)
-INSERT [dbo].[p2000user] ([id], [IdUserStatus], [Fullname], [Email], [Password], [Avatar], [IdRoleUser], [CreatedAt], [UpdatedAt], [authkey], [Phone], [Sex], [IdCity], [IdDistrict], [Address], [Point]) VALUES (17, 1, N'Lương Thanh Bình', N'luongthanhbinh45@gmail.com', N'6A50CE6F7C366CB17C71FB6EA5CC3D1D', N'http://127.0.0.1:8000/images\2021_04_28_09_28_00_mt.jpg', 1, CAST(N'2021-05-04T13:56:54.000' AS DateTime), CAST(N'2021-05-11T13:56:54.000' AS DateTime), N'luongthanhbinh45@gmail.com', N'0966150693', N'1', N'1', N'1', N'56456', 70)
-INSERT [dbo].[p2000user] ([id], [IdUserStatus], [Fullname], [Email], [Password], [Avatar], [IdRoleUser], [CreatedAt], [UpdatedAt], [authkey], [Phone], [Sex], [IdCity], [IdDistrict], [Address], [Point]) VALUES (18, 1, N'Luong Thanh Bình', N'luongthanhbinh345345@gmail.com', N'B379B04B1FB4E5AB34E0C3ABCE88757D', N'http://127.0.0.1:8000/images\2021_04_28_09_28_00_mt.jpg', 1, CAST(N'2021-05-04T19:49:37.000' AS DateTime), CAST(N'2021-05-04T19:49:37.000' AS DateTime), N'', N'456456456', N'1', N'1', N'1', N'56456', 10)
-INSERT [dbo].[p2000user] ([id], [IdUserStatus], [Fullname], [Email], [Password], [Avatar], [IdRoleUser], [CreatedAt], [UpdatedAt], [authkey], [Phone], [Sex], [IdCity], [IdDistrict], [Address], [Point]) VALUES (19, 1, N'Luong Thanh Bình', N'luongthanhbinh451@gmail.com', N'FCEA920F7412B5DA7BE0CF42B8C93759', N'http://127.0.0.1:8000/images\2021_04_28_09_28_00_mt.jpg', 1, CAST(N'2021-05-04T15:22:17.600' AS DateTime), CAST(N'2021-05-04T15:22:17.600' AS DateTime), N'', N'456456456', N'1', N'1', N'1', N'56456', NULL)
-INSERT [dbo].[p2000user] ([id], [IdUserStatus], [Fullname], [Email], [Password], [Avatar], [IdRoleUser], [CreatedAt], [UpdatedAt], [authkey], [Phone], [Sex], [IdCity], [IdDistrict], [Address], [Point]) VALUES (20, 1, N'Luong Thanh Bình', N'luongthanhbinh451@gmail.com', N'', N'http://127.0.0.1:8000/images\2021_04_28_09_28_00_mt.jpg', 1, CAST(N'2021-05-04T15:56:32.577' AS DateTime), CAST(N'2021-05-04T15:56:32.577' AS DateTime), N'19k4111007@hce.edu.vn', N'456456456', N'1', N'1', N'1', N'56456', NULL)
-INSERT [dbo].[p2000user] ([id], [IdUserStatus], [Fullname], [Email], [Password], [Avatar], [IdRoleUser], [CreatedAt], [UpdatedAt], [authkey], [Phone], [Sex], [IdCity], [IdDistrict], [Address], [Point]) VALUES (21, 1, N'Luong Thanh Bình', N'luongthanhbinh451@gmail.com', N'FCEA920F7412B5DA7BE0CF42B8C93759', N'http://127.0.0.1:8000/images\2021_04_28_09_28_00_mt.jpg', 1, CAST(N'2021-05-06T13:36:51.867' AS DateTime), CAST(N'2021-05-06T13:36:51.867' AS DateTime), N'', N'456456456', N'1', N'1', N'1', N'56456', NULL)
-INSERT [dbo].[p2000user] ([id], [IdUserStatus], [Fullname], [Email], [Password], [Avatar], [IdRoleUser], [CreatedAt], [UpdatedAt], [authkey], [Phone], [Sex], [IdCity], [IdDistrict], [Address], [Point]) VALUES (22, 1, N'Luong Thanh Bình', N'luongthanhbinh451@gmail.com', N'FCEA920F7412B5DA7BE0CF42B8C93759', N'http://127.0.0.1:8000/images\2021_04_28_09_28_00_mt.jpg', 1, CAST(N'2021-05-06T13:42:02.530' AS DateTime), CAST(N'2021-05-06T13:42:02.530' AS DateTime), N'', N'456456456', N'1', N'1', N'1', N'56456', NULL)
-INSERT [dbo].[p2000user] ([id], [IdUserStatus], [Fullname], [Email], [Password], [Avatar], [IdRoleUser], [CreatedAt], [UpdatedAt], [authkey], [Phone], [Sex], [IdCity], [IdDistrict], [Address], [Point]) VALUES (23, 1, N'Luong Thanh Bình', N'luongthanhbinh451@gmail.com', N'FCEA920F7412B5DA7BE0CF42B8C93759', N'http://127.0.0.1:8000/images\2021_04_28_09_28_00_mt.jpg', 1, CAST(N'2021-05-06T13:43:43.407' AS DateTime), CAST(N'2021-05-06T13:43:43.407' AS DateTime), N'', N'456456456', N'1', N'1', N'1', N'56456', NULL)
-INSERT [dbo].[p2000user] ([id], [IdUserStatus], [Fullname], [Email], [Password], [Avatar], [IdRoleUser], [CreatedAt], [UpdatedAt], [authkey], [Phone], [Sex], [IdCity], [IdDistrict], [Address], [Point]) VALUES (24, 1, N'Luong Thanh Bình', N'luongthanhbinh451@gmail.com', N'B389B2B1251E0D8BAF3C1219C14BBD56', N'http://127.0.0.1:8000/images\2021_04_28_09_28_00_mt.jpg', 1, CAST(N'2021-05-06T13:56:41.000' AS DateTime), CAST(N'2021-05-06T13:56:41.000' AS DateTime), N'', N'456456456', N'1', N'1', N'1', N'56456', 1000)
-INSERT [dbo].[p2000user] ([id], [IdUserStatus], [Fullname], [Email], [Password], [Avatar], [IdRoleUser], [CreatedAt], [UpdatedAt], [authkey], [Phone], [Sex], [IdCity], [IdDistrict], [Address], [Point]) VALUES (25, 1, N'Luong Thanh Bình', N'luongthanhbinh451@gmail.com', N'FCEA920F7412B5DA7BE0CF42B8C93759', N'http://127.0.0.1:8000/images\2021_04_28_09_28_00_mt.jpg', 1, CAST(N'2021-05-07T09:22:37.430' AS DateTime), CAST(N'2021-05-07T09:22:37.430' AS DateTime), N'', N'456456456', N'1', N'1', N'1', N'56456', NULL)
+INSERT [dbo].[p2000user] ([id], [IdUserStatus], [Fullname], [Email], [Password], [Avatar], [IdRoleUser], [CreatedAt], [UpdatedAt], [authkey], [Phone], [Sex], [IdCity], [IdDistrict], [Address], [Point]) VALUES (1, 1, N'Pham Van Minh Duc', N'minhducand@gmail.com', N'020F80EC82D9A9EB21B53468F3F97E39', N'http://127.0.0.1:8000/images\2021_04_28_09_28_00_mt.jpg', 1, CAST(N'2021-03-30T13:56:47.000' AS DateTime), CAST(N'2021-05-10T13:56:47.000' AS DateTime), N'', N'456456456', N'1', N'1', N'1', N'56456', 1000)
+INSERT [dbo].[p2000user] ([id], [IdUserStatus], [Fullname], [Email], [Password], [Avatar], [IdRoleUser], [CreatedAt], [UpdatedAt], [authkey], [Phone], [Sex], [IdCity], [IdDistrict], [Address], [Point]) VALUES (17, 1, N'Pham Van Minh Duc', N'minhducand@gmail.com', N'6A50CE6F7C366CB17C71FB6EA5CC3D1D', N'http://127.0.0.1:8000/images\2021_04_28_09_28_00_mt.jpg', 1, CAST(N'2021-05-04T13:56:54.000' AS DateTime), CAST(N'2021-05-11T13:56:54.000' AS DateTime), N'luongthanhbinh45@gmail.com', N'0966150693', N'1', N'1', N'1', N'56456', 70)
+INSERT [dbo].[p2000user] ([id], [IdUserStatus], [Fullname], [Email], [Password], [Avatar], [IdRoleUser], [CreatedAt], [UpdatedAt], [authkey], [Phone], [Sex], [IdCity], [IdDistrict], [Address], [Point]) VALUES (18, 1, N'Pham Van Minh Duc', N'minhducand@gmail.com', N'B379B04B1FB4E5AB34E0C3ABCE88757D', N'http://127.0.0.1:8000/images\2021_04_28_09_28_00_mt.jpg', 1, CAST(N'2021-05-04T19:49:37.000' AS DateTime), CAST(N'2021-05-04T19:49:37.000' AS DateTime), N'', N'456456456', N'1', N'1', N'1', N'56456', 10)
+INSERT [dbo].[p2000user] ([id], [IdUserStatus], [Fullname], [Email], [Password], [Avatar], [IdRoleUser], [CreatedAt], [UpdatedAt], [authkey], [Phone], [Sex], [IdCity], [IdDistrict], [Address], [Point]) VALUES (19, 1, N'Pham Van Minh Duc', N'minhducand@gmail.com', N'FCEA920F7412B5DA7BE0CF42B8C93759', N'http://127.0.0.1:8000/images\2021_04_28_09_28_00_mt.jpg', 1, CAST(N'2021-05-04T15:22:17.600' AS DateTime), CAST(N'2021-05-04T15:22:17.600' AS DateTime), N'', N'456456456', N'1', N'1', N'1', N'56456', NULL)
+INSERT [dbo].[p2000user] ([id], [IdUserStatus], [Fullname], [Email], [Password], [Avatar], [IdRoleUser], [CreatedAt], [UpdatedAt], [authkey], [Phone], [Sex], [IdCity], [IdDistrict], [Address], [Point]) VALUES (20, 1, N'Pham Van Minh Duc', N'minhducand@gmail.com', N'', N'http://127.0.0.1:8000/images\2021_04_28_09_28_00_mt.jpg', 1, CAST(N'2021-05-04T15:56:32.577' AS DateTime), CAST(N'2021-05-04T15:56:32.577' AS DateTime), N'19k4111007@hce.edu.vn', N'456456456', N'1', N'1', N'1', N'56456', NULL)
+INSERT [dbo].[p2000user] ([id], [IdUserStatus], [Fullname], [Email], [Password], [Avatar], [IdRoleUser], [CreatedAt], [UpdatedAt], [authkey], [Phone], [Sex], [IdCity], [IdDistrict], [Address], [Point]) VALUES (21, 1, N'Pham Van Minh Duc', N'minhducand@gmail.com', N'FCEA920F7412B5DA7BE0CF42B8C93759', N'http://127.0.0.1:8000/images\2021_04_28_09_28_00_mt.jpg', 1, CAST(N'2021-05-06T13:36:51.867' AS DateTime), CAST(N'2021-05-06T13:36:51.867' AS DateTime), N'', N'456456456', N'1', N'1', N'1', N'56456', NULL)
+INSERT [dbo].[p2000user] ([id], [IdUserStatus], [Fullname], [Email], [Password], [Avatar], [IdRoleUser], [CreatedAt], [UpdatedAt], [authkey], [Phone], [Sex], [IdCity], [IdDistrict], [Address], [Point]) VALUES (22, 1, N'Pham Van Minh Duc', N'minhducand@gmail.com', N'FCEA920F7412B5DA7BE0CF42B8C93759', N'http://127.0.0.1:8000/images\2021_04_28_09_28_00_mt.jpg', 1, CAST(N'2021-05-06T13:42:02.530' AS DateTime), CAST(N'2021-05-06T13:42:02.530' AS DateTime), N'', N'456456456', N'1', N'1', N'1', N'56456', NULL)
+INSERT [dbo].[p2000user] ([id], [IdUserStatus], [Fullname], [Email], [Password], [Avatar], [IdRoleUser], [CreatedAt], [UpdatedAt], [authkey], [Phone], [Sex], [IdCity], [IdDistrict], [Address], [Point]) VALUES (23, 1, N'Pham Van Minh Duc', N'minhducand@gmail.com', N'FCEA920F7412B5DA7BE0CF42B8C93759', N'http://127.0.0.1:8000/images\2021_04_28_09_28_00_mt.jpg', 1, CAST(N'2021-05-06T13:43:43.407' AS DateTime), CAST(N'2021-05-06T13:43:43.407' AS DateTime), N'', N'456456456', N'1', N'1', N'1', N'56456', NULL)
+INSERT [dbo].[p2000user] ([id], [IdUserStatus], [Fullname], [Email], [Password], [Avatar], [IdRoleUser], [CreatedAt], [UpdatedAt], [authkey], [Phone], [Sex], [IdCity], [IdDistrict], [Address], [Point]) VALUES (24, 1, N'Pham Van Minh Duc', N'minhducand@gmail.com', N'B389B2B1251E0D8BAF3C1219C14BBD56', N'http://127.0.0.1:8000/images\2021_04_28_09_28_00_mt.jpg', 1, CAST(N'2021-05-06T13:56:41.000' AS DateTime), CAST(N'2021-05-06T13:56:41.000' AS DateTime), N'', N'456456456', N'1', N'1', N'1', N'56456', 1000)
+INSERT [dbo].[p2000user] ([id], [IdUserStatus], [Fullname], [Email], [Password], [Avatar], [IdRoleUser], [CreatedAt], [UpdatedAt], [authkey], [Phone], [Sex], [IdCity], [IdDistrict], [Address], [Point]) VALUES (25, 1, N'Pham Van Minh Duc', N'minhducand@gmail.com', N'FCEA920F7412B5DA7BE0CF42B8C93759', N'http://127.0.0.1:8000/images\2021_04_28_09_28_00_mt.jpg', 1, CAST(N'2021-05-07T09:22:37.430' AS DateTime), CAST(N'2021-05-07T09:22:37.430' AS DateTime), N'', N'456456456', N'1', N'1', N'1', N'56456', NULL)
 INSERT [dbo].[p2000user] ([id], [IdUserStatus], [Fullname], [Email], [Password], [Avatar], [IdRoleUser], [CreatedAt], [UpdatedAt], [authkey], [Phone], [Sex], [IdCity], [IdDistrict], [Address], [Point]) VALUES (26, 1, N'bbbbb', N'6456456@gmail.com', N'72816E4D3C7168B39CCC277912208E37', N'http://127.0.0.1:8000/images\2021_05_10_19_45_24_favicon.ico', 1, CAST(N'2021-05-10T19:45:36.000' AS DateTime), CAST(N'2021-05-10T19:45:36.000' AS DateTime), NULL, N'+84966150693', N'1', N'1', N'1', N'K123/H20 Cù Chính Lan', NULL)
 SET IDENTITY_INSERT [dbo].[p2000user] OFF
 GO
@@ -1598,9 +1598,9 @@ SET IDENTITY_INSERT [dbo].[p2700producttype] OFF
 GO
 SET IDENTITY_INSERT [dbo].[p2800ordershop] ON 
 
-INSERT [dbo].[p2800ordershop] ([id], [IdProductType], [IdUser], [IdOrderStatus], [IdCity], [IdDistrict], [IdPaymentStatus], [IdPaymentType], [TotalPrice], [PromotionCode], [Name], [Email], [Phone], [Address], [Note], [CreatedAt], [UpdatedAt], [Point]) VALUES (1, 1, 17, 4, 1, 1, 1, 1, 825000, N'', N'Luong Thanh Bình', N'luongthanhbinh45@gmail.com', N'0966150693', N'56456', N'', CAST(N'2021-06-11T11:33:32.000' AS DateTime), CAST(N'2021-06-11T11:33:32.000' AS DateTime), 0)
-INSERT [dbo].[p2800ordershop] ([id], [IdProductType], [IdUser], [IdOrderStatus], [IdCity], [IdDistrict], [IdPaymentStatus], [IdPaymentType], [TotalPrice], [PromotionCode], [Name], [Email], [Phone], [Address], [Note], [CreatedAt], [UpdatedAt], [Point]) VALUES (2, 1, 17, 5, 1, 1, 1, 1, 525000, N'', N'Luong Thanh Bình', N'luongthanhbinh45@gmail.com', N'0966150693', N'56456', N'', CAST(N'2021-06-11T11:29:45.000' AS DateTime), CAST(N'2021-06-11T11:29:45.000' AS DateTime), 0)
-INSERT [dbo].[p2800ordershop] ([id], [IdProductType], [IdUser], [IdOrderStatus], [IdCity], [IdDistrict], [IdPaymentStatus], [IdPaymentType], [TotalPrice], [PromotionCode], [Name], [Email], [Phone], [Address], [Note], [CreatedAt], [UpdatedAt], [Point]) VALUES (3, 1, 17, 5, 62, 1, 1, 1, 85000, N'', N'Luong Thanh Bình', N'luongthanhbinh45@gmail.com', N'0966150693', N'56456', N'', CAST(N'2021-06-11T11:35:57.000' AS DateTime), CAST(N'2021-06-11T11:35:57.000' AS DateTime), 0)
+INSERT [dbo].[p2800ordershop] ([id], [IdProductType], [IdUser], [IdOrderStatus], [IdCity], [IdDistrict], [IdPaymentStatus], [IdPaymentType], [TotalPrice], [PromotionCode], [Name], [Email], [Phone], [Address], [Note], [CreatedAt], [UpdatedAt], [Point]) VALUES (1, 1, 17, 4, 1, 1, 1, 1, 825000, N'', N'Pham Van Minh Duc', N'minhducand@gmail.com', N'0966150693', N'56456', N'', CAST(N'2021-06-11T11:33:32.000' AS DateTime), CAST(N'2021-06-11T11:33:32.000' AS DateTime), 0)
+INSERT [dbo].[p2800ordershop] ([id], [IdProductType], [IdUser], [IdOrderStatus], [IdCity], [IdDistrict], [IdPaymentStatus], [IdPaymentType], [TotalPrice], [PromotionCode], [Name], [Email], [Phone], [Address], [Note], [CreatedAt], [UpdatedAt], [Point]) VALUES (2, 1, 17, 5, 1, 1, 1, 1, 525000, N'', N'Pham Van Minh Duc', N'minhducand@gmail.com', N'0966150693', N'56456', N'', CAST(N'2021-06-11T11:29:45.000' AS DateTime), CAST(N'2021-06-11T11:29:45.000' AS DateTime), 0)
+INSERT [dbo].[p2800ordershop] ([id], [IdProductType], [IdUser], [IdOrderStatus], [IdCity], [IdDistrict], [IdPaymentStatus], [IdPaymentType], [TotalPrice], [PromotionCode], [Name], [Email], [Phone], [Address], [Note], [CreatedAt], [UpdatedAt], [Point]) VALUES (3, 1, 17, 5, 62, 1, 1, 1, 85000, N'', N'Pham Van Minh Duc', N'minhducand@gmail.com', N'0966150693', N'56456', N'', CAST(N'2021-06-11T11:35:57.000' AS DateTime), CAST(N'2021-06-11T11:35:57.000' AS DateTime), 0)
 SET IDENTITY_INSERT [dbo].[p2800ordershop] OFF
 GO
 SET IDENTITY_INSERT [dbo].[p2900orderdetail] ON 
