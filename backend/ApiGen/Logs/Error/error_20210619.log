@@ -1,1 +1,1 @@
-2021-06-19T09:57:38.9905814+07:00 [WRN] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) No XML encryptor configured. Key {01dd28f2-c903-4534-8cad-9ade5f8f3d97} may be persisted to storage in unencrypted form.
+2021-11-19T09:57:38.9905814+07:00 [WRN] (Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager) No XML encryptor configured. Key {01dd28f2-c903-4534-8cad-9ade5f8f3d97} may be persisted to storage in unencrypted form.
