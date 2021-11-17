@@ -11250,7 +11250,106 @@ For the candidates we have: CV reviewing, Document preparation, Interview strate
         </context-group>
 		<target xmlns="">Vouchers</target>
       </trans-unit>
-	 
+	 <!-- <trans-unit id="65e5cc5573cde9771eb5df6edfa931cd7bf2bae0" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>*<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> Chuyên ngành:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page-manager/content-candidate/b2-infomation-document/b2-infomation-document.component.html</context>
+          <context context-type="linenumber">169</context>
+        </context-group>
+		<target xmlns="">Major</target>
+      </trans-unit>
+	  <trans-unit id="9e06b4de0c400e978d068ddfc697a1f1267e785a" datatype="html">
+        <source>Nơi làm
+                                                            việc mong muốn 2:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page-manager/content-candidate/b2-infomation-document/b2-infomation-document.component.html</context>
+          <context context-type="linenumber">221</context>
+        </context-group>
+		<target xmlns="">Desired workplace 2:</target>
+      </trans-unit>
+      <trans-unit id="f98831db972b952623fb238f1743ddd5855412bc" datatype="html">
+        <source>Nơi làm
+                                                            việc mong muốn 3:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page-manager/content-candidate/b2-infomation-document/b2-infomation-document.component.html</context>
+          <context context-type="linenumber">234</context>
+        </context-group>
+		<target xmlns="">Desired workplace 3:</target>
+      </trans-unit>
+	  <trans-unit id="1ad788308379786e22760d12d600ab63ebc48727" datatype="html">
+        <source>
+                                                                Bạn phải chọn chuyên ngành
+                                                            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page-manager/content-candidate/b2-infomation-document/b2-infomation-document.component.html</context>
+          <context context-type="linenumber">176</context>
+        </context-group>
+		<target xmlns="">You must choose a major</target>
+      </trans-unit>
+	  <trans-unit id="dd6c1e17d29713bcd7be0a0068e33fffd90d3d88" datatype="html">
+        <source>
+                                                                Vui lòng nhập nơi làm việc mong muốn
+                                                            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page-manager/content-candidate/b2-infomation-document/b2-infomation-document.component.html</context>
+          <context context-type="linenumber">211</context>
+        </context-group>
+		<target xmlns="">Please enter the desired workplace</target>
+      </trans-unit>
+	  <trans-unit id="298ba3bfc2984e753035d3b8f6dac6717d79f930" datatype="html">
+        <source>Số điện thoại:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page-user/content/b2-detail-work/b2-detail-work.component.html</context>
+          <context context-type="linenumber">209</context>
+        </context-group>
+		<target xmlns="">Phone number:</target>
+      </trans-unit>
+	  <trans-unit id="2f54dcb2dcbe4af47c36eac7974400a0c96761b8" datatype="html">
+        <source>Triết lý “Hunting with a heart” của Young Pine</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page-user/content/i1-about/i1-about.component.html</context>
+          <context context-type="linenumber">629</context>
+        </context-group>
+		<target xmlns="">Young Pine's “Hunting With a Heart” Policy</target>
+      </trans-unit>
+      <trans-unit id="a3c11f70536b2ae765608e5bd6d219492f86575d" datatype="html">
+        <source>
+                        Triết lý “ Săn người có tâm” của Young Pine dẫn đường cho chúng tôi xem xét vấn đề đạo đức trong công việc kinh doanh săn đầu người, chính sách này sẽ giúp tổ chức chúng tôi và các thành viên trong tổ chức phải suy nghĩ lại trước khi quyết định săn một nhân sự từ một tổ chức này để cung cấp cho một tổ chức khác.
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page-user/content/i1-about/i1-about.component.html</context>
+          <context context-type="linenumber">631</context>
+        </context-group>
+		<target xmlns="">Head hunting with a heart policy of Young Pine considers the morality of head hunting business, it offers fresh perspectives on head hunting activities and forces our organization and our team member to rethink carefully before deciding hunting a head from an organization to supply for the others.</target>
+      </trans-unit>
+      <trans-unit id="8d245b28d00b3f009dcec7407611e73622a2f9ea" datatype="html">
+        <source>
+                        Các câu hỏi chúng tôi sẽ đưa ra như là vì sao chúng ta phải săn người này, có phải ứng viên này đến làm cho một tổ chức khác là sự lựa chọn đúng đắn và tốt hơn cho tổ chức kể cả bản thân ứng viên hay không, nếu ứng viên chúng ta đang quan tâm là một nhân sự tốt thì vì sao anh ta hay cô ta không tự thay đổi bản thân mình để phát triển tại hệ sinh thái hiện tại mà phải chuyển đi nơi khác…? Chính sách này sẽ khuyết khích các thành viên của chúng tôi bỏ ra nhiều thời gian hơn để tìm hiểu hệ sinh thái hiện tại của ứng viên cũng như bản thân ứng viên chúng tôi đang quan tâm. Chúng tôi sẽ ưu tiên việc đánh giá kiến thức, khả năng và kỹ năng làm việc của ứng viên; so sánh những gì ứng viên cống hiến cho tổ chức và những gì họ được hưởng, sau phân tích này chúng tôi sẽ tư vấn bao quát cho ứng của chúng tôi về sự nghiệp của họ hơn là chỉ nhắm vào lợi ích của chúng tôi mà quên đi lợi ích của ứng viên cũng như tổ chức mà ứng viên của chúng tôi đang làm việc.
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page-user/content/i1-about/i1-about.component.html</context>
+          <context context-type="linenumber">634</context>
+        </context-group>
+		<target xmlns="">Question such as why we hunt, is it a better choice for the candidate to leave his or her current employer, what is wrong and why doesn’t she change herself to make her career better instead of changing the employer…? This hunting morality will encourage our team members to spend more time with the organizations as well as candidates to understand the candidate career situation and work ecology. Our first priority is to value the candidate career competence, ability and skill in matching with the compensation and benefit that his or her employer is offering, make an analysis and give our candidates a thorough consult on their career rather than just hunt for our benefits and forget how much it will hurt the candidates as well as organization.</target>
+      </trans-unit>
+      <trans-unit id="750b016040f5dd243aec8c720ca6bc5058505fe1" datatype="html">
+        <source>
+                        Chúng tôi cũng sẽ không gây mâu thuẫn quyền lợi với các tổ chức nơi các thành viên gia đình của nhân viên chúng tôi bao gồm vợ chồng, con cái đã và đang học tập, công tác bằng cách không săn các nhân sự từ các tổ chức này khi họ còn đang công tác hay nghỉ việc ít hơn 6 tháng.
+                    </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page-user/content/i1-about/i1-about.component.html</context>
+          <context context-type="linenumber">637</context>
+        </context-group>
+		<target xmlns="">Hunting with a heart policy also prohibits Young Pine from creating interest conflict with organizations where our team family members included children and spouse are or ever working or schooling. We will not target any candidates from such organization when they are under employment or left the organization less than 6 months.</target>
+      </trans-unit>
+	  <trans-unit id="42d7ef4ee461f779130327b0c929fe675ecec1e7" datatype="html">
+        <source>Hãy để Young Pine khơi dậy tinh thần làm việc của bạn</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/home-page-user/content/i1-about/i1-about.component.html</context>
+          <context context-type="linenumber">606</context>
+        </context-group>
+		<target xmlns="">Let Young Pine inspires your working spirit</target>
+      </trans-unit>  -->
 	</body>
 	</file>
 </xliff>
