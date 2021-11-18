@@ -10302,8 +10302,7 @@ For the candidates we have: CV reviewing, Document preparation, Interview strate
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home-page-manager/content-company/b2-add-recruitment/b2-add-recruitment.component.html</context>
           <context context-type="linenumber">224</context>
-        </context-group>
-		<target xmlns="">Kỹ năng giải quyết vấn đề</target>
+
       </trans-unit>
 	  <trans-unit id="75068870198e64c8ef43bfb4824a9c93d573c204" datatype="html">
         <source>
@@ -10323,8 +10322,7 @@ For the candidates we have: CV reviewing, Document preparation, Interview strate
           <context context-type="sourcefile">src/app/home-page-manager/content-company/b2-add-recruitment/b2-add-recruitment.component.html</context>
           <context context-type="linenumber">238</context>
         </context-group>
-		<target xmlns="">Kỹ năng thuyết trình</target>
-      </trans-unit>
+
       <trans-unit id="de7be203fa1821325e88d79881cb465665969fa7" datatype="html">
         <source>
                                 Lập kế hoạch
@@ -10343,8 +10341,7 @@ For the candidates we have: CV reviewing, Document preparation, Interview strate
           <context context-type="sourcefile">src/app/home-page-manager/content-company/b2-add-recruitment/b2-add-recruitment.component.html</context>
           <context context-type="linenumber">252</context>
         </context-group>
-		<target xmlns="">Quản lý thời gian hiệu quả</target>
-      </trans-unit>
+
       <trans-unit id="2b57d92e275f1f0fa42a87bc9b2924ba15160fb1" datatype="html">
         <source>
                                 Dễ dàng thích nghi với môi trường mới
@@ -10391,16 +10388,7 @@ For the candidates we have: CV reviewing, Document preparation, Interview strate
         </context-group>
 		<target xmlns="">Chế độ bảo hiểm tốt nhất</target>
       </trans-unit>
-      <trans-unit id="6c46f58bdfd11890574124c431d1ad4eb4e4a832" datatype="html">
-        <source>
-                                Môi trường làm việc năng động
-                            </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page-manager/content-company/b1-list-recruitment/b1-list-recruitment-edit-dialog.component.html</context>
-          <context context-type="linenumber">207</context>
-        </context-group>
-		<target xmlns="">Môi trường làm việc năng động</target>
-      </trans-unit>
+
       
 		<target xmlns="">Thử việc được hưởng 80% lương</target>
       </trans-unit>
