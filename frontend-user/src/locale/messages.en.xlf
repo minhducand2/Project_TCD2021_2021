@@ -10401,14 +10401,7 @@ For the candidates we have: CV reviewing, Document preparation, Interview strate
         </context-group>
 		<target xmlns="">Môi trường làm việc năng động</target>
       </trans-unit>
-      <trans-unit id="dc7fe839ce660c0ae65c2eb91116d578f1a52874" datatype="html">
-        <source>
-                                Thử việc được hưởng 80% lương
-                            </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page-manager/content-company/b1-list-recruitment/b1-list-recruitment-edit-dialog.component.html</context>
-          <context context-type="linenumber">212</context>
-        </context-group>
+      
 		<target xmlns="">Thử việc được hưởng 80% lương</target>
       </trans-unit>
       <trans-unit id="5a4451e7c867ad2290b30f515e46295f17d58670" datatype="html">
@@ -10451,15 +10444,7 @@ For the candidates we have: CV reviewing, Document preparation, Interview strate
           <context context-type="linenumber">237</context>
         </context-group>
 		<target xmlns="">Đi du lịch 2 lần/Năm</target>
-      </trans-unit>
-      <trans-unit id="198127d6603a2fdf486f2f18f88dd49cf6c14810" datatype="html">
-        <source>
-                                Free nước uống cơm ca
-                            </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page-manager/content-company/b1-list-recruitment/b1-list-recruitment-edit-dialog.component.html</context>
-          <context context-type="linenumber">246</context>
-        </context-group>
+
 		<target xmlns="">Free nước uống cơm ca</target>
       </trans-unit>
       <trans-unit id="c013817850c9c7c4d077cab28a5995345d655141" datatype="html">
@@ -10476,86 +10461,7 @@ For the candidates we have: CV reviewing, Document preparation, Interview strate
         <source>
                                 Được đơn phương chấm dứt hợp đồng
                             </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page-manager/content-company/b1-list-recruitment/b1-list-recruitment-edit-dialog.component.html</context>
-          <context context-type="linenumber">256</context>
-        </context-group>
-		<target xmlns="">Được đơn phương chấm dứt hợp đồng</target>
-      </trans-unit>
-	  <trans-unit id="384f9fbd0d5c0a4dd813e9e0ba1340d8511a95f2" datatype="html">
-        <source>CV review</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page-user/content/i1-about/i1-about.component.html</context>
-          <context context-type="linenumber">559</context>
-        </context-group>
-		<target xmlns="">CV review</target>
-      </trans-unit>
-      <trans-unit id="b59266a1d86c342bcc2cd8087e959b1016e3ab9a" datatype="html">
-        <source>Chuẩn bị hồ sơ tìm việc</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page-user/content/i1-about/i1-about.component.html</context>
-          <context context-type="linenumber">560</context>
-        </context-group>
-		<target xmlns="">Document preparation</target>
-      </trans-unit>
-      <trans-unit id="b730ff2c5e8615c499e66dbe581e9761d9a328c0" datatype="html">
-        <source>Chiến lược phỏng vấn</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page-user/content/i1-about/i1-about.component.html</context>
-          <context context-type="linenumber">561</context>
-        </context-group>
-		<target xmlns="">Interview strategy consulting</target>
-      </trans-unit>
-      <trans-unit id="4a9e9e9c9bc0cb94fc7835d34cd502fd8345d266" datatype="html">
-        <source>Thay đổi nghề nghiệp</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page-user/content/i1-about/i1-about.component.html</context>
-          <context context-type="linenumber">562</context>
-        </context-group>
-		<target xmlns="">Career path development</target>
-      </trans-unit>
-      <trans-unit id="0740bce50bb25b834f474bf3d57756815cd057d1" datatype="html">
-        <source>Phát triển bản thân</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page-user/content/i1-about/i1-about.component.html</context>
-          <context context-type="linenumber">563</context>
-        </context-group>
-		<target xmlns="">Change yourself to advance at work</target>
-      </trans-unit>
-      <trans-unit id="fec72ea787c9ad1dbbe1a7065b332121cf10e1ca" datatype="html">
-        <source>Phát triển lộ trình công danh</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page-user/content/i1-about/i1-about.component.html</context>
-          <context context-type="linenumber">564</context>
-        </context-group>
-		<target xmlns="">Change yourself for a better career and of course a better life</target>
-      </trans-unit>
-	  <trans-unit id="d7660de2e981e92206654f56c3eaa913c8b4e6ca" datatype="html">
-        <source>
-                                                            <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
-                                                                Giải thưởng</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page-user/content/b2-detail-work/b2-detail-work.component.html</context>
-          <context context-type="linenumber">100</context>
-        </context-group>
-		<target xmlns="">Awards</target>
-      </trans-unit>
-      <trans-unit id="f97da1f6e5afba52b60f93a11787b05105177dc9" datatype="html">
-        <source>
-                                                            <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
-                                                                Tiền thưởng
-                                                            </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page-user/content/b2-detail-work/b2-detail-work.component.html</context>
-          <context context-type="linenumber">105</context>
-        </context-group>
-		<target xmlns="">Bonus</target>
-      </trans-unit>
-      <trans-unit id="dd352791e5e5479ff0f470abb73f39838d320b8e" datatype="html">
-        <source>
-                                                            <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/>
-                                                                Căn tin
-                                                            </source>
+
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/home-page-user/content/b2-detail-work/b2-detail-work.component.html</context>
           <context context-type="linenumber">111</context>
