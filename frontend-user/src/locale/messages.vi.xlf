@@ -10795,66 +10795,6 @@
         </context-group>
 		<target xmlns="">Điện thoại</target>
       </trans-unit>
-      <trans-unit id="d8f91e5f26c567ab4763282978a665161ba653c8" datatype="html">
-        <source>Nghỉ phép có lương</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page-user/content/b2-detail-work/b2-detail-work.component.html</context>
-          <context context-type="linenumber">170</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page-user/content/c2-detail-candidate/c2-detail-candidate.component.html</context>
-          <context context-type="linenumber">215</context>
-        </context-group>
-		<target xmlns="">Ngày nghỉ</target>
-      </trans-unit>
-      <trans-unit id="4975497f41ab07f6a883c3b682cc7908b1441682" datatype="html">
-        <source>Hoạt động nhóm</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page-user/content/b2-detail-work/b2-detail-work.component.html</context>
-          <context context-type="linenumber">174</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page-user/content/c2-detail-candidate/c2-detail-candidate.component.html</context>
-          <context context-type="linenumber">219</context>
-        </context-group>
-		<target xmlns="">Hoạt động nhóm</target>
-      </trans-unit>
-      <trans-unit id="d2a4bef3f1154cdff9e6c13281e18998501c02a7" datatype="html">
-        <source>Đào tạo</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page-user/content/b2-detail-work/b2-detail-work.component.html</context>
-          <context context-type="linenumber">178</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page-user/content/c2-detail-candidate/c2-detail-candidate.component.html</context>
-          <context context-type="linenumber">223</context>
-        </context-group>
-		<target xmlns="">Đào tạo</target>
-      </trans-unit>
-	  <trans-unit id="a69feabb5d1a3cc0c9b5e78922b27c5004dc86f9" datatype="html">
-        <source>Xe đưa đón</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page-user/content/b2-detail-work/b2-detail-work.component.html</context>
-          <context context-type="linenumber">182</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page-user/content/c2-detail-candidate/c2-detail-candidate.component.html</context>
-          <context context-type="linenumber">227</context>
-        </context-group>
-		<target xmlns="">Xe đưa đón</target>
-      </trans-unit>
-      <trans-unit id="0716eb5d875e6154efcb5b202d403bb609855fbd" datatype="html">
-        <source>Cơ hội du lịch</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page-user/content/b2-detail-work/b2-detail-work.component.html</context>
-          <context context-type="linenumber">186</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/home-page-user/content/c2-detail-candidate/c2-detail-candidate.component.html</context>
-          <context context-type="linenumber">231</context>
-        </context-group>
-		<target xmlns="">Cơ hội đi lại</target>
-      </trans-unit>
       <trans-unit id="8b1bca5968cedc64ad55e84fdd427bc781b08068" datatype="html">
         <source>Phiếu quà tặng</source>
         <context-group purpose="location">
