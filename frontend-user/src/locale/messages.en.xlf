@@ -2536,10 +2536,7 @@
 				<target xmlns="">Engineering/Tech</target></trans-unit>
 			<trans-unit id="2a484c773aad5b183236588e78df99b6a65a7089" datatype="html">
 				<source>Marketing</source>
-				<context-group purpose="location">
-					<context context-type="sourcefile">src/app/home-page-user/content/e1-coaching/e1-coaching.component.html</context>
-					<context context-type="linenumber">110</context>
-				</context-group>
+
 				<target xmlns="">Marketing</target></trans-unit>
 			<trans-unit id="5b90ddb393c9f612b37f78253364173b8abac8f0" datatype="html">
 				<source>PR/Communications</source>
