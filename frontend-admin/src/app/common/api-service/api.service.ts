@@ -16,13 +16,13 @@ export class ApiService {
   private getAllWhatUrl = '';
   protected se: Security = new Security();
   public lang: string = 'vn';
-  public BASEURL: string = 'http://localhost:8000/';
+  public BASEURL: string = 'http://334.92.19.250:8000/';
   public BASE_UPLOAD_URL: string = 'http://localhost:8200/P5Upload';
 
   // public SERVER_URL = this.BASEURL + '/Controller/Upload.php';
   public SENTMAIL_URL = 'https://rolievn.com/api/Controller/BaseMail.php';
-  public IMAGE_UPLOAD_URL = 'http://localhost:8000/api/upload';
-  public FILE_UPLOAD_URL = 'http://localhost:8000/api/upload';
+  public IMAGE_UPLOAD_URL = 'http://334.92.19.250:8000/api/upload';
+  public FILE_UPLOAD_URL = 'http://334.92.19.250:8000/api/upload';
 
   // authrize
   public sysmemberSubject: BehaviorSubject<any>;
