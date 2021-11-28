@@ -1,23 +1,4 @@
-/*
-Copyright (c) 2003-2014, CKSource - Frederico Knabben. All rights reserved.
-For licensing, see LICENSE.md or http://ckeditor.com/license
-*/
 
-/*
-elementspath.css (part of editor.css)
-=======================================
-
-This file styles the "Elements Path", whith is the list of element names
-present at the the bottom bar of the CKEditor interface.
-
-The following is a visual representation of its main elements:
-
-+-- .cke_path ---------------------------------------------------------------+
-| +-- .cke_path_item ----+ +-- .cke_path_item ----+ +-- .cke_path_empty ---+ |
-| |                      | |                      | |                      | |
-| +----------------------+ +----------------------+ +----------------------+ |
-+----------------------------------------------------------------------------+
-*/
 
 /* The box that holds the entire elements path. */
 .cke_path
