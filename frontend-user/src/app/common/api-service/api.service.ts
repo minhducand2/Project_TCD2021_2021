@@ -15,17 +15,17 @@ export class ApiService {
     private getImageUrl = "";
     protected se: Security = new Security();
     public lang: string = 'vn';
-    public BASEURL: string = 'http://localhost:8000/';
+    public BASEURL: string = 'http://34.92.19.250:8000/';
     public linkUrlSeo: string = 'http://localhost:4200/#';
 
     // CONSTAINT URL
     public SERVER_URL: string = "https://rolievn.com/api/Controller/Upload.php";
-    public FRONTEND_URL: string = "http://localhost:8000/api/v1/ProxyApi/SelectAllByWhat";
-    public BACKEND_URL: string = "http://localhost:8000/api/v1/ProxyApi/SelectAllByWhat";
+    public FRONTEND_URL: string = "http://34.92.19.250:8000/api/v1/ProxyApi/SelectAllByWhat";
+    public BACKEND_URL: string = "http://34.92.19.250:8000/api/v1/ProxyApi/SelectAllByWhat";
     public SERVER_CV_URL: string = "https://rolievn.com/api/Controller/UploadCV.php";
     public SENTMAIL_URL: string = "https://rolievn.com/api/Controller/BaseMail.php";
     public DOWNCV_URL: string = "https://rolievn.com/api/Controller/ConvertHtmlToPDF.php";
-    public IMAGE_UPLOAD_URL = 'http://localhost:8000/api/upload';
+    public IMAGE_UPLOAD_URL = 'http://34.92.19.250:8000/api/upload';
 
     // authorize
     public staffSubject: BehaviorSubject<any>;
