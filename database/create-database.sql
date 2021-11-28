@@ -788,8 +788,8 @@ SET IDENTITY_INSERT [dbo].[p200role] OFF
 GO
 SET IDENTITY_INSERT [dbo].[p2100promotion] ON 
 
-INSERT [dbo].[p2100promotion] ([id], [Name], [PromotionCode], [PercentCode], [MoneyDiscount], [StartDate], [EndDate], [Point]) VALUES (1, N'Khuy?n mãi 30-4', N'G50', 0, 300000, CAST(N'2021-04-29' AS Date), CAST(N'2021-05-04' AS Date), 5)
-INSERT [dbo].[p2100promotion] ([id], [Name], [PromotionCode], [PercentCode], [MoneyDiscount], [StartDate], [EndDate], [Point]) VALUES (20, N'Khuy?n mãi', N'G30', 30, 0, CAST(N'2021-04-30' AS Date), CAST(N'2021-06-30' AS Date), 5)
+INSERT [dbo].[p2100promotion] ([id], [Name], [PromotionCode], [PercentCode], [MoneyDiscount], [StartDate], [EndDate], [Point]) VALUES (1, N'Khuyến mãi 30-4', N'G50', 0, 300000, CAST(N'2021-04-29' AS Date), CAST(N'2021-05-04' AS Date), 5)
+INSERT [dbo].[p2100promotion] ([id], [Name], [PromotionCode], [PercentCode], [MoneyDiscount], [StartDate], [EndDate], [Point]) VALUES (20, N'Khuyến mãi', N'G30', 30, 0, CAST(N'2021-04-30' AS Date), CAST(N'2021-06-30' AS Date), 5)
 SET IDENTITY_INSERT [dbo].[p2100promotion] OFF
 GO
 SET IDENTITY_INSERT [dbo].[p2200orderstatus] ON 
